@@ -1,0 +1,53 @@
+Alright — let’s make this feel like you’ve just been hired by a real client.  
+Here’s your **fake-but-realistic assignment brief**:  
+
+---
+
+## 📝 Project Brief: “LocalBites” – Restaurant Menu Web App
+
+**Client:** LocalBites, a small family-owned restaurant in your town.  
+**Goal:** They want a simple, mobile-friendly web app where customers can view the daily menu and contact the restaurant.  
+**Deadline:** 5 days from “today.”  
+**Budget:** €0 (they’re paying you in free meals — you agreed because you want portfolio work).  
+
+---
+
+### **Requirements**
+1. **Homepage**  
+   - Restaurant name, logo, and a short welcome message.  
+   - A “View Menu” button.  
+
+2. **Menu Page**  
+   - Displays today’s menu items (pulled from a simple JSON file or Python list).  
+   - Each item shows: name, description, and price.  
+
+3. **Contact Page**  
+   - Restaurant address, phone number, and a contact form (name, email, message).  
+   - Form doesn’t need to send real emails — just show a “Message sent!” confirmation.  
+
+4. **Tech Stack**  
+   - **Backend:** Flask (Python)  
+   - **Frontend:** HTML + CSS (Bootstrap optional)  
+   - **Data:** Menu stored in a JSON file or Python dictionary.  
+
+5. **Bonus (Optional)**  
+   - Add a “Daily Special” section that highlights one menu item.  
+   - Make it responsive so it looks good on mobile.  
+
+---
+
+### **Deliverables**
+- A working Flask app that runs locally.  
+- Clear instructions in a `README.md` on how to run it.  
+- Screenshots of the app in action for the client.  
+
+---
+
+### **Client Notes**
+> “We’re not tech people. We just want something simple that looks nice and works on our phones. If we like it, maybe we’ll ask you to add online ordering later.”  
+
+---
+
+If you want, I can **act as your client** during this project — you can send me updates, and I’ll give you “client feedback” so it feels like a real back-and-forth.  
+
+Do you want me to also give you a **step-by-step day plan** so you can finish this in under a week without burning out? That way it’ll feel like a real freelance timeline.
