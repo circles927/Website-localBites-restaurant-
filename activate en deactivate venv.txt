@@ -1,0 +1,19 @@
+ga naar de betreffende map
+(cd "Github Repo's")
+
+eenmaal:
+python -m venv venv
+-
+dan:
+Set-ExecutionPolicy Unrestricted -Scope Process
+venv\Scripts\activate.ps1
+
+en
+
+deactivate
+
+---------------------------
+
+om te beginnen:
+python -m flask --app hello run
+
