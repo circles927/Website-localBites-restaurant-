@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LocalBites Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar-brand {
+        color: white !important;
+      }
+      .jumbotron {
+        background-color: lightgrey;
+      }
+      .media-body {
+        padding-left: 20px;
+      }
+      .row {
+        margin: 0px;
+        margin-bottom: 75px;
+      }
+      .col-sm-4 {
+        color: white;
+        background-color: tan;
+        border: 1px solid black;
+        text-align: center;
+        margin-top: 10px;
+        padding: 20px;
+      }
+      .col-sm-4 p {
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .footer-custom {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="media">
+          <div class="media-left media-middle">
+            <img src="../static/images/logo LocalBites.jpeg" class="media-object" style="width:150px">
+          </div>
+          <div class="media-body">
+            <h1 class="media-heading">LocalBites Restaurant</h1>
+            <p>Welcome to our own traditional family owned restaurant. The restaurant has already been running for 5 generations, and continues to serve customers with meals they're happy with.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse" style="border-style: none;">
+      <div class="container-fluid" style="border-color: black; border-width: 1px; border-style: solid; border-radius: 2px;">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Welcome</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-sm-4"><h4 style="color: black;">Daily Special - Penne Al Pomodoro</h4><img src="../static/images/simple pasta.png" class="img-thumbnail" width="75%"><p>Al dente penne pasta tossed in a rich, slow-simmered tomato sauce made with ripe Italian tomatoes, garlic, fresh basil, and a drizzle of extra virgin olive oil. Finished with a light dusting of Parmesan.</p><p style="color: black;">€11.50</p></div>
+      <div class="col-sm-4"><h4 style="color: black;">Healthy Option - Mediterranean Garden Salad</h4><img src="../static/images/simple salad.png" class="img-thumbnail" width="75%"><p>A vibrant mix of crisp lettuce, juicy cherry tomatoes, cool cucumber slices, and briny Kalamata olives, topped with crumbled feta cheese. Drizzled with our house-made extra virgin olive oil and lemon dressing.</p><p style="color: black;">€8.00</p></div>
+      <div class="col-sm-4"><h4 style="color: black;">Desert - Classic Vanilla Butter Cake</h4><img src="../static/images/simple dessert (cake).png" class="img-thumbnail" width="75%"><p>A soft, golden-yellow sponge with a delicate vanilla aroma, lightly sweet and moist. Served simply, with a dusting of powdered sugar for an elegant finish.</p><p style="color: black;">€5.00</p></div>
+    </div>
+    <footer>
+      <div class="footer-custom" style="color: white; background-color: rgb(95, 95, 95); position: fixed; bottom: 0; margin-right: 0px; width: 100%; padding: 10px; border-style: solid; border-width: 1px; border-color: black;">
+        <p>&copy; 2025 LocalBites Restaurant. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
