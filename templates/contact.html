@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LocalBites Restaurant</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/contact.css') }}" rel="stylesheet">
   </head>
   <body>
     <div id="floatLinkBack"><a href="index.html">Back to Page</a></div>
@@ -40,26 +40,44 @@
       </div>
     </nav>
     <main>
-      <div class="row" id="menus3fold">
-        <div class="col">
-          <img src="{{ url_for('static', filename='images/simple pasta.png') }}" alt="Pasta Pomodoro" class="img-thumbnail img-fluid" height="200px">
-          <h4>Daily Special: Penne Al Pomodoro</h4>
-          <p>Al dente penne pasta tossed in a rich, slow-simmered tomato sauce made with ripe Italian tomatoes, garlic, fresh basil, and a drizzle of extra virgin olive oil. Finished with a light dusting of Parmesan.</p>
-          <p>€11.50</p>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or would like to make a reservation, please don't hesitate to reach out to us. We're here to help and ensure you have a wonderful dining experience at LocalBites Restaurant.</p>
+            <h4>Phone</h4>
+            <p>You can call us at: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            <h4>Email</h4>
+            <p>For inquiries, please email us at: <a href="">localbites@somemailadress.nl</a></p>
+            <div class="col-sm-2"></div>
         </div>
-        <div class="col">
-          <img src="{{ url_for('static', filename='images/simple salad.png') }}" alt="Salad" class="img-thumbnail img-fluid" height="200px">
-          <h4>Healthy Option: Mediterranean Garden Salad</h4>
-          <p>A vibrant mix of crisp lettuce, juicy cherry tomatoes, cool cucumber slices, and briny Kalamata olives, topped with crumbled feta cheese. Drizzled with our house-made extra virgin olive oil and lemon dressing.</p>
-          <p>€8.00</p>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+            <h4>Address</h4>
+            <p>Visit us at:</p>
+            <address>
+                LocalBites Restaurant<br>
+                123 Flavor Street<br>
+                Foodie City, FC 45678<br>
+                Country
+            </address>
+            <h4>Business Hours</h4>
+            <p>We're open during the following hours:</p>
+            <ul>
+                <li>Monday - Friday: 11:00 AM - 10:00 PM</li>
+                <li>Saturday: 12:00 PM - 11:00 PM</li>
+                <li>Sunday: 12:00 PM - 9:00 PM</li>
+            </ul>
+            <h4>Follow Us</h4>
+            <p>Stay connected and follow us on social media for the latest updates, special offers, and delicious food photos!</p>
+            <ul>
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+            </ul>
+            <div class="col-sm-2"></div>
         </div>
-        <div class="col">
-          <img src="{{ url_for('static', filename='images/simple dessert (cake).png') }}" alt="Cake" class="img-thumbnail img-fluid" height="200px">
-          <h4>Dessert: Classic Vanilla Butter Cake</h4>
-          <p>A soft, golden-yellow sponge with a delicate vanilla aroma, lightly sweet and moist. Served simply, with a dusting of powdered sugar for an elegant finish.</p>
-          <p>€5.00</p>
-        </div>
-      </div>
     </main>
     <footer>
       <p>&copy; 2025 LocalBites Restaurant. All rights reserved.</p>

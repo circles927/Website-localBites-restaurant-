@@ -28,3 +28,11 @@ def index():
 @app.route("/index.html", methods=["GET"])
 def index2():
     return render_template("index.html")
+
+@app.route("/contact.html", methods=["GET"])
+def contact():
+    return render_template("contact.html")
+
+@app.route("/about.html", methods=["GET"])
+def about():
+    return render_template("about.html")
